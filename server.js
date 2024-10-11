@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/success', (req, res) => {
-    res.send('working successfully');
+    res.send('working');
 })
 
 app.use(express.json());
